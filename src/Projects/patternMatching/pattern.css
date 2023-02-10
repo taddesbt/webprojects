@@ -1,0 +1,27 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+.gamearea {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    color: black;
+    text-align: center;
+    /* display: inline-block; */
+
+}
+
+.active {
+    border: 1px solid red;
+    color: red;
+}
